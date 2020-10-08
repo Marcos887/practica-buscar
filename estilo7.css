@@ -1,102 +1,193 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-
-
-
-body{
+body {
     display: flex;
-    height: 50vh;
+    height: 100vh;
     flex-direction: column;
+}
+
+.container {
+    height: 40%;
     background-image: url(f.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-}
-.container{
-    height: 40%;
-    
-  
-}
-.foto{
+.foto {
     height: 3rem;
     width: 3rem;
     border-radius: 50px;
     margin-right: 2rem;
 }
-.header{
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-top: 1rem;
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 20px;
 }
-.header--search{
+
+.header--search {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-p{
+
+p {
     color: blue;
     margin-left: 2rem;
+    margin-left: 40px;
 }
-h1{
-    font-size: 50px;
+
+h1 {
+    font-size: 2.5rem;
     line-height: 0.9;
-color: white;
-margin-left: 20px;
+    margin-left: 30px;
 }
-h2{
-    font-size: 50px;
-    color: yellow;
-    margin-left: 20px;
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(150, 70, 24);
+    margin-left: 30px;
 }
-.search--input{
+
+.search--input {
     width: 100%;
 }
-.svg--search{
+
+.svg--search {
     position: absolute;
     bottom: 0;
     padding-bottom: 16px;
@@ -104,11 +195,11 @@ h2{
     fill: currentColor;
     color: rgb(179, 173, 173);
 }
+
 .buscar {
-    margin-top: 50px;
     display: flex;
     align-items: center;
-    background-color: rgb(183, 177, 238);
+    background-color: white;
     width: 83%;
     border-radius: 30px;
     margin-left: 20px;
@@ -120,8 +211,6 @@ input {
     height: 30px;
     border-radius: 30px;
     border: 0;
-    background-color: rgb(183, 177, 238);
-    
 }
 
 .lupa {
